@@ -1,5 +1,48 @@
 # 03 JavaScript: Password Generator
 
+## TODO's
+### Features to add (Technical acceptance criteria)
+
+  - [ ] Button click opens input prompts
+8.  - [ ] Research how to dynamically update HTML and CSS
+        - [ ] character type choice
+      - [ ] lowercase
+      - [ ] uppercase
+      - [ ] numeric
+      - [ ] special characters
+      - [ ] **Check type choice**
+    - [ ] password length
+      - [ ] 8 - 128 chars long
+      - [ ] **check length**
+    - [ ] generate password according to criteria selected
+      - [ ] Find how to randomly generate string 
+    - [ ] generated password displayed to alert or written to page
+
+### Deployment
+
+3. - [ ] Push to Github repo
+   - [ ] Deploy at live URL
+   - [ ] Check app loads with no errors
+   - [ ] Submit Github URL
+
+### App quality
+
+   - [ ] Application user experience is intuitive and easy to navigate. 
+   - [ ] Application user interface style is clean and polished. 
+6.  - [ ] Research responsive UI to screen sizes
+7.  - [ ] Research clean polished UI
+- [ ] Application resembles the mock-up functionality provided in the Challenge instructions.
+
+### Repo quality
+
+1. - [ ] Give repo unique name 
+2. - [ ] check best practices for file structure and naming conventions
+4. - [ ] check best practices for class/id naming conventions, indentation, quality comments, etc 
+-  Repository contains multiple descriptive commit messages.
+5.   - [ ] Add tasks as issues to be ticked off.  **Ensure I keep up with branching and commit messages.**
+- [ ] Replace task briefing with my own readme  with description, screenshot, and link to deployed application.
+
+
 ## Your Task
 
 This week's Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
