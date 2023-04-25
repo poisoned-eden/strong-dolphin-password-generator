@@ -14,17 +14,15 @@ A Password Generator, built focusing on the javascript skills I have learnt in w
 
 ## Installation
 
-Visit the URL at 
+No installation necessary.
+
+Visit the URL at (https://poisoned-eden.github.io/strong-dolphin-password-generator/)[https://poisoned-eden.github.io/strong-dolphin-password-generator/] to view the generator in the browser of your choice.
 
 ## Usage
 
-[ ] Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+1. Click the button to open input prompts.
+2. Enter your desired criteria for the password.  The generator will verify your input.
+3. Your new password displays in the box.  Copy it to wherever needed.
 
 ## Credits
 
@@ -35,4 +33,3 @@ The starter code was given by the edX Coding Bootcamp I am enrolled on through t
 ## License
 
 GNU General Public License v3.0
-[ ] Link to licence
