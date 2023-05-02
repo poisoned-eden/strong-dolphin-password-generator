@@ -52,10 +52,12 @@ function generatePassword() {
         validateOptions () {
             if (!(Number.isInteger(input.lengthStore) && input.lengthStore > 7 && input.lengthStore < 128)) {
                 console.log("length wrong");
+                alert("Please ensure you have entered an integer in the range 8-128.  Thank you");
                 input.getOptions();
             } else {
                 if (input.string === "") {
                     console.log('string empty')
+                    alert("Please ensure you choose at least one of the groups of characters for use in your password");
                     input.getOptions();
                 } else {
                     console.log('validated');
