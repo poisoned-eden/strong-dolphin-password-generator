@@ -25,12 +25,10 @@ function generatePassword() {
         string: "",
         getLength () {
             var lengthChoice = prompt("How long would you like the password to be? Please enter a number between 8 & 128", 8);
-            console.log("input length " + lengthChoice);
             return lengthChoice;
         },
         characterOptions (charType) {
             var option = prompt("Please type y if you would you like to use " + charType + " in your password", "y");
-            console.log(option);
             return option;
         },
         getOptions() {
@@ -41,26 +39,22 @@ function generatePassword() {
                 charType = charSets[set].type;
                 input[set] = input.characterOptions(charType);
                 var answer = input[set].toLowerCase();
-                console.log("answered " + answer);
                 if (answer === "y") {
                     input.string += charSets[set].string;
                 };
             };
-            console.log(input);
 
         },
         validateOptions () {
             if (!(Number.isInteger(input.lengthStore) && input.lengthStore > 7 && input.lengthStore < 128)) {
-                console.log("length wrong");
                 alert("Please ensure you have entered an integer in the range 8-128.  Thank you");
                 input.getOptions();
             } else {
                 if (input.string === "") {
-                    console.log('string empty')
                     alert("Please ensure you choose at least one of the groups of characters for use in your password");
                     input.getOptions();
                 } else {
-                    console.log('validated');
+                    alert("Thank you, your new password is displayed in the box.");
                 };
             }; 
         },
@@ -73,11 +67,8 @@ function generatePassword() {
 
     for ( let counter = 0; counter < input.lengthStore; counter++ ) {
         randomChoice = Math.floor(Math.random()*input.string.length);
-        console.log(randomChoice);
         nextChar = input.string.charAt(randomChoice);
-        console.log(nextChar);
         pword += nextChar;
-        console.log(pword);
     };
 
     return pword; 
