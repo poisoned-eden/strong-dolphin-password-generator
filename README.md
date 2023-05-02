@@ -24,6 +24,8 @@ Visit the URL at (https://poisoned-eden.github.io/strong-dolphin-password-genera
 2. Enter your desired criteria for the password.  The generator will verify your input.
 3. Your new password displays in the box.  Copy it to wherever needed.
 
+![screenshot](assets/screenshot.png)
+
 ## Credits
 
 Thank you (Alator21) [https://github.com/alator21] and contributors, for your (repository name generator)[https://github.com/alator21/repository-name-generator].
